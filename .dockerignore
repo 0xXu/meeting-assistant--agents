@@ -1,0 +1,38 @@
+# 虚拟环境（镜像内会重新安装）
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# 环境变量（通过 env_file 注入，不打入镜像）
+.env
+.env.*
+
+# 文档 & 计划
+docs/
+*.md
+plan.md
+
+# 测试
+src/tests/
+
+# AI 模型大文件
+/models/
+*.bin
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# 运行时生成
+reports/
+logs/
+*.log
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
